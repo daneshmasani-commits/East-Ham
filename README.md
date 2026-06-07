@@ -71,7 +71,7 @@ These are flagged on-page (highlighted) and as `[TO CONFIRM]` / `[TO ADD]` comme
 - [ ] **Real pricing** (currently indicative private prices + standard NHS bands).
 - [ ] **Real email address** (currently `contact@easthamdentalcare.co.uk` placeholder).
 - [ ] **Full names** for J Fowles, B Deo, and all dental nurses.
-- [ ] **Additional 5★ reviews** — 5 real reviews are in; 4 clearly-marked `[TO ADD: 5★ review]` slots remain (target 3–5 more from the practice's Google listing, 64 total).
+- [x] **Reviews** — 10 real 5★ Google reviews are in (named patients). No placeholder slots remain.
 - [ ] **Opening hours** (currently Mon–Fri 9–5, Sat & Sun closed).
 - [ ] **Privacy policy** and **cookie policy** content (footer + cookie banner links).
 - [ ] **Complaints procedure** wording.
