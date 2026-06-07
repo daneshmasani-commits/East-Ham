@@ -1,5 +1,5 @@
 /* =========================================================
-   G K Ooi & Associates — main.js
+   East Ham Dental Care — main.js
    Vanilla JS. No libraries. Progressive enhancement.
    ========================================================= */
 (function () {
@@ -273,8 +273,8 @@
         message: form.elements['message'].value.trim()
       };
 
-      // [TO CONFIRM: Formspree endpoint URL] — submits silently to Formspree; no external app opens
-      var ENDPOINT = 'https://formspree.io/f/xnjrkaeo';
+      // Submits silently to Formspree; no external app opens.
+      var ENDPOINT = 'https://formspree.io/f/mqeopwwg';
       var submitBtn = form.querySelector('button[type="submit"]');
 
       status.textContent = 'Sending your enquiry…';
@@ -294,7 +294,7 @@
           throw new Error('Request failed');
         }
       }).catch(function () {
-        status.innerHTML = 'Sorry — something went wrong sending your enquiry. Please try again, or call us on <a href="tel:+442075821668">020 7582 1668</a>.';
+        status.innerHTML = 'Sorry — something went wrong sending your enquiry. Please try again, or call us on <a href="tel:+442084720638">020 8472 0638</a>.';
         status.className = 'form-status error';
       })['finally'](function () {
         if (submitBtn) submitBtn.disabled = false;
@@ -304,7 +304,7 @@
 
   /* ---------- Cookie consent + Google Map gating ---------- */
   function initCookieAndMap() {
-    var STORAGE_KEY = 'gkooi_cookie_consent';
+    var STORAGE_KEY = 'eastham_cookie_consent';
     var banner = document.getElementById('cookieBanner');
     var accept = document.getElementById('cookieAccept');
     var decline = document.getElementById('cookieDecline');
@@ -325,7 +325,7 @@
       var src = mapEmbed.getAttribute('data-map-src');
       var iframe = document.createElement('iframe');
       iframe.src = src;
-      iframe.title = 'Map showing G K Ooi & Associates at 36 Brunel Road, London SE16 6HZ';
+      iframe.title = 'Map showing East Ham Dental Care at 480 Barking Road, London E6 2LT';
       iframe.loading = 'lazy';
       iframe.referrerPolicy = 'no-referrer-when-downgrade';
       iframe.setAttribute('allowfullscreen', '');
